@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #CC998D;
+    font-family: Bitcount Prop Single;
+}
+.buttonexp {
+    padding: 12px 24px;
+    background-color: #e69886;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: Bitcount Prop Single;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+.buttonexp:hover {
+    background-color: #d1725d;
+}
+.buttonexp:focus {
+    outline: none;
+}
+.text-content {
+    margin-top: 32px;
+    font-size: 1erm;
+    font-weight: bold;
+    color: #1f2937;
+    opacity: 0;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.navbar {
+    background-color: #Ecebe4;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 0.5rem;S
+}
+
+.navbar-container {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    color: #CC998D;
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.brand-logo:hover {
+    background-color: #CC998D;
+    color: #Ecebe4;
+}
+
+table {
+    width: 80%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(150, 144, 144, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+th {
+    background-color: #Ecebe4;
+    font-weight: 600;
+    color: #d67b66;
+}
+
+tr:hover {
+    background-color: #d67b66;
+}

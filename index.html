@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math: Central Tendency for Ungrouped Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght,CRSV@240,0&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="brand-logo">
+                Central Tendency for Ungrouped Data
+            </a>
+        </div>
+    </nav>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Names</th>
+                <th>Flights Taken</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sam</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Keane</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Megan</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Nique</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Anne</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Clint</td>
+                <td>4</td>
+            </tr>
+                <td>Nicoli</td>
+                <td>2</td>
+            </t>
+            </tr>
+                <td>Keifer</td>
+                <td>1.2</td>
+            </t>
+            </tr>
+                <td>Cedric</td>
+                <td>10</td>
+            </t>
+            </tr>
+                <td>Ashken</td>
+                <td>N/A</td>
+            </t>
+            </tr>
+                <td>Airhanne</td>
+                <td>4</td>
+            </t>
+        </tbody>
+    </table>
+        <button id="anstext" class="buttonexp">
+            Show Answer And Explaination
+        </button>
+        <div id="text" class="text-content">
+            Mean: 4.66, Median 4, Mode: 4
+            How?
+            <p>
+                I Got The Mean, Because We Added All Of The Numbers We Got.
+            </p>
+            <p>
+                So That Would Be 0+1.2+2+4+4+7+9+10=37.2. Then We Divide By How Much Numbers Are There.
+            </p>
+            <p>
+                ---
+            </p>
+            <p>
+                I Got The Median, Because We Align The Numbers Based On There Numerical Order
+            </p>
+            <p>
+                Then We Got Two 4s. So We Added Them And Divid it By 2.
+            </p>
+            <p>
+                ---
+            </p>
+            <p>
+                I Got The Mode, Because We Align Also The Numbers Based On There Numerical Order
+            </p>
+            <p>
+                Then We Check If A Certain Number Is Duplicated, So Our Number Is 4, So The Answer Is 4.
+            </p>
+            <p>
+                Made By Keane :D
+            </p>
+        </div>
+    <script>
+        document.getElementById('anstext').addEventListener('click', function() {
+            const fadeText = document.getElementById('text');
+            fadeText.classList.add('fade-in');
+        });
+    </script>
+</body>
+</html>
